@@ -1,0 +1,69 @@
+{
+  "personalInfo": {
+    "name": "مي محمود",
+    "title": "Frontend & Mobile Developer",
+    "age": 25,
+    "bio": "مبتكرة ومطورة تبلغ من العمر 25 عاماً، بشغف كبير لتحويل الأفكار الإبداعية إلى منصات ويب ومواقع وتطبيقات قوية وعالية الأداء.",
+    "whatsapp": "01022877114",
+    "whatsappLink": "https://wa.me/201022877114",
+    "email": "hayamahmoud049@gmail.com"
+  },
+  "projects": [
+    {
+      "title": "Exclusive Tours Egypt",
+      "category": "شركة سياحة",
+      "description": "موقع سياحي متكامل يعرض الرحلات والخدمات السياحية في مصر بتصميم جذاب وسلس.",
+      "link": "https://exclusive-tours-egypt.vercel.app/",
+      "tags": ["Web Design", "Tourism"]
+    },
+    {
+      "title": "Golden Prestige",
+      "category": "مصنع ملابس وتصميمات",
+      "description": "الملف التعريفي والتصميمات الخاصة بمصنع وشركات الأزياء والملابس.",
+      "link": "https://golden-prestige.vercel.app/",
+      "tags": ["Apparel", "Branding"]
+    },
+    {
+      "title": "Tooliano",
+      "category": "متجر للملابس",
+      "description": "متجر إلكتروني متكامل لعرض وتسوق الملابس والأزياء بتجربة مستخدم مميزة.",
+      "link": "https://tooliano.com/",
+      "tags": ["E-commerce", "Fashion"]
+    },
+    {
+      "title": "M&M Life Store",
+      "category": "متجر ملابس وأزياء",
+      "description": "منصة تجارة إلكترونية متخصصة في الأزياء وملابس العائلة.",
+      "link": "https://clothing-store-nu-ten.vercel.app/",
+      "tags": ["Next.js", "E-commerce"]
+    },
+    {
+      "title": "MM Factory Profile",
+      "category": "صفحة تعريفيّة واحدة",
+      "description": "بروفايل تفصيلي سريع ومرتب لخدمات المصنع والأعمال.",
+      "link": "https://mm-factory-profile.vercel.app/",
+      "tags": ["Landing Page", "Profile"]
+    },
+    {
+      "title": "MM Factory Magazine",
+      "category": "مجلة المصنع",
+      "description": "مجلة رقمية تعرض أحدث أخبار وتصميمات ومنتجات المصنع.",
+      "link": "https://mm-factory-magazine.vercel.app/",
+      "tags": ["Digital Magazine", "Content"]
+    },
+    {
+      "title": "أسرار الرياضة (Asrar Al-Riyada)",
+      "category": "موقع رياضي إخباري",
+      "description": "منصة أخبار رياضية متكاملة تغطي مباريات وأندية الدوري والأحداث الرياضية.",
+      "link": "https://asrar-elryiada.vercel.app/",
+      "tags": ["Sports News", "Flutter/Web"]
+    },
+    {
+      "title": "صوت وروح (Sout We Rouh)",
+      "category": "تطبيق للمواهب والمزيكا والشات",
+      "description": "منصة تفاعلية تجمع عشاق الموسيقى والمواهب مع ميزات الدردشة الحية.",
+      "link": "https://soutwerouh-cloud.github.io/sout_we_rouh/",
+      "tags": ["Interactive App", "Chat & Music"]
+    }
+  ]
+}
