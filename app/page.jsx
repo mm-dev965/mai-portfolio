@@ -1,8 +1,8 @@
-import { FaWhatsapp, FaEnvelope, FaExternalLinkAlt, FaBriefcase } from 'react-icons/fa';
+import { FaWhatsapp, FaEnvelope, FaExternalLinkAlt, FaBriefcase, FaCode } from 'react-icons/fa';
 
 export default function Portfolio() {
   const personalInfo = {
-    name: "مي محمود",
+    name: "زينب خلف",
     title: "Frontend & Mobile Developer",
     experience: "4 سنوات من الخبرة",
     bio: "مطور ومصمم واجهات برمجية وتطبيقات بخبرة 4 سنوات. أمتلك شغفاً كبيراً بتحويل الأفكار المعقدة إلى منتجات رقمية أنيقة، سريعة، وذات تجربة استخدام ممتازة.",
@@ -83,7 +83,7 @@ export default function Portfolio() {
       
       {/* علامة مائية خلفية فخمة */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.015] select-none z-0">
-        <span className="text-[12vw] font-black tracking-widest text-white uppercase">MAI MAHMOUD</span>
+        <span className="text-[12vw] font-black tracking-widest text-white uppercase">ZAINAB KHALAF</span>
       </div>
 
       {/* Header */}
@@ -126,14 +126,13 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* Profile Image - متجاوبة وممتازة على الموبايل والكمبيوتر */}
-          <div className="relative w-44 h-44 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-3xl bg-gradient-to-tr from-cyan-500 to-blue-600 p-1.5 shadow-2xl shrink-0 mx-auto">
-            <div className="w-full h-full bg-[#161b22] rounded-[20px] overflow-hidden relative flex items-center justify-center">
-              <img 
-                src="/images/profile.jpg" 
-                alt={personalInfo.name}
-                className="w-full h-full object-cover object-center"
-              />
+          {/* Programming Icon Box - بديل احترافي معبر عن البرمجة */}
+          <div className="relative w-44 h-44 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-3xl bg-gradient-to-tr from-cyan-500 to-blue-600 p-1.5 shadow-2xl shrink-0 mx-auto flex items-center justify-center">
+            <div className="w-full h-full bg-[#161b22] rounded-[20px] overflow-hidden relative flex flex-col items-center justify-center gap-3 text-cyan-400 shadow-inner">
+              <div className="w-20 h-20 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center shadow-lg">
+                <FaCode className="text-4xl sm:text-5xl text-cyan-400 animate-pulse" />
+              </div>
+              <span className="text-xs sm:text-sm font-bold tracking-wider text-slate-300">Clean Code & Dev</span>
             </div>
           </div>
         </div>
@@ -214,7 +213,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="text-center py-4 text-[11px] sm:text-xs text-slate-500 border-t border-slate-800/80 bg-[#0d1117] flex flex-wrap items-center justify-center gap-2 px-4">
-          <span>© 2026 Mai Mahmoud. All rights reserved.</span>
+          <span>© 2026 Zainab Khalaf. All rights reserved.</span>
           <span className="hidden sm:inline text-slate-700">|</span>
           <span className="font-semibold text-cyan-400">Official Portfolio</span>
         </div>
